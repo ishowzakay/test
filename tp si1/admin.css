@@ -1,0 +1,109 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour le titre */
+h2 {
+    color: #333;
+}
+
+/* Style pour les liens */
+a {
+    text-decoration: none;
+}
+
+/* Style pour le lien d'ajout */
+a.add {
+    color: blue;
+}
+
+/* Style pour le lien de modification */
+a.edit {
+    color: green;
+}
+
+/* Style pour le lien de suppression */
+a.delete {
+    color: red;
+}
+
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style pour les cellules du tableau */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style pour l'en-tête du tableau */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style pour le lien d'ajout */
+a.add-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Style pour le lien d'ajout au survol */
+a.add-button:hover {
+    background-color: #45a049;
+}
+
+/* Style pour le lien de suppression */
+a.delete-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Style pour le lien de suppression au survol */
+a.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Style pour le formulaire */
+form {
+    margin-bottom: 20px;
+}
+
+/* Style pour les champs de formulaire */
+input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style pour le bouton du formulaire */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style pour le bouton du formulaire au survol */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
